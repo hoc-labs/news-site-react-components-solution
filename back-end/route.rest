@@ -1,0 +1,30 @@
+
+GET http://localhost:5000/api/topics
+
+###
+
+GET http://localhost:5000/api/articles
+
+###
+
+GET http://localhost:5000/api/articles/60dbf7289590d334b822ad6c
+
+###
+
+
+GET http://localhost:5000/api/articles/60d24ffdb4f2084cb4ee9510/comments
+
+###
+
+GET http://localhost:5000/api/articles/topic/60d2506cb4f2084cb4ee9512
+
+###
+
+POST http://localhost:5000/api/articles/60d24ffdb4f2084cb4ee9510/comments
+Content-Type: application/json
+
+{
+  "authorId": "60d24aeaeacbc4390430134c",
+  "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+}
+

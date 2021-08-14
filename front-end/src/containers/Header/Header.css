@@ -1,0 +1,17 @@
+
+main header {
+  background-color: #fff;
+  padding: 18px;
+  display: flex;
+}
+
+/* this style centers the logo image within the anchor */
+main header > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .logo {
+  width: 180px;
+}

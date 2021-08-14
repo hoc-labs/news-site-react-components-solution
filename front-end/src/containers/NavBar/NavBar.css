@@ -1,0 +1,30 @@
+
+.nav-container {
+  width:100%;
+}
+
+.nav-container ul {
+  display: flex;
+  flex-direction:column;
+}
+
+/* default style for mobile width */
+.nav-container ul {
+  list-style: none;
+}
+
+/* style for larger widths */
+@media screen and (min-width: 600px) {
+  .nav-container ul {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.nav-container li {
+  font-weight: bold;
+}
+
+.nav-container a:hover {
+  color: var(--primary-color);
+}

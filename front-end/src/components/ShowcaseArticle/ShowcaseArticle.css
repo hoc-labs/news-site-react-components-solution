@@ -1,0 +1,23 @@
+
+.showcase {
+  color: #fff;
+  padding: 32px;
+  height: 40vh;
+ }
+
+@media screen and (min-width: 600px) {
+  .showcase p {
+    width: 50%;
+  }
+}
+
+.btn {
+  border: none;
+  color: #fff;
+  padding: 8px 12px;
+  background-color: var(--primary-color);
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
